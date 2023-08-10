@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "SFProDisplay-Regular";
+  src: url("./Fonts/SFPRODISPLAYREGULAR.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SFProDisplay-Medium";
+  src: url("./Fonts/SFPRODISPLAYMEDIUM.OTF") format("opentype");
+}
+
+@font-face {
+  font-family: "SFProDisplay-bold";
+  src: url("./Fonts/SFPRODISPLAYBOLD.OTF") format("opentype");
+}
+
+.popupTooltip {
+  background-color: white !important;
+  color: #1c1e21 !important;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  width: 25rem !important;
+  text-align: start !important;
+  font-size: 0.9rem !important;
+  line-height: 1rem !important;
+  opacity: 1 !important;
+}
